@@ -2,6 +2,7 @@
 Unofficial board for the original Xbox modchip "[ModXo](https://github.com/shalxmva/modxo)" by Shalx
 Using the smaller (USB-C) version RP2040-Zero by WaveShare.
 Cut-out in the middle of the PCB to allow the RP2040 to lay flush / improve cooling.
+Fully checked DRC (Design Rule Checks)
 
 ![3d](3d.png)
 
