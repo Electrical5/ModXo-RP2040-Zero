@@ -38,8 +38,7 @@ Though do note you can also install the RP2040-Zero using headers:
 # SMBus
 
 Currently ModXo doesn't implement reading SMBus via I2C, in the future this could add functionality such as monitoring temperature/fanspeed, LED control or restarting/shutdown the xbox remotely.
-Especially if paired with the Pi Pico Wireless, it could allow basic remote control / monitoring of the xbox.
-However, there's two solder jumpers to connect the SMBus of the Xbox to the Pi Pico.
+However, there's two solder jumpers to connect the SMBus of the Xbox to the RP2040-Zero.
 
 # License
 
