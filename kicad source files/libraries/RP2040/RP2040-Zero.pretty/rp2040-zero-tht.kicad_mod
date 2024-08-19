@@ -75,35 +75,16 @@
 		(layer "Dwgs.User")
 		(uuid "180245d9-4a3f-4d1b-adcc-b4eafac722e0")
 	)
-	(fp_line
+	(fp_rect
 		(start -6 -11.75)
-		(end -6 8.89)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "Edge.Cuts")
-		(uuid "b4450c83-6da6-4393-a892-92bf8cbec8aa")
-	)
-	(fp_line
-		(start -6 8.89)
 		(end 6 8.89)
 		(stroke
-			(width 0.12)
-			(type solid)
+			(width 0.05)
+			(type default)
 		)
+		(fill none)
 		(layer "Edge.Cuts")
-		(uuid "57e128ae-5e07-4818-9f5a-1cee0e65c680")
-	)
-	(fp_line
-		(start 6 8.89)
-		(end 6 -11.75)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "Edge.Cuts")
-		(uuid "96e87ac2-5565-47ab-ae62-263f85b93211")
+		(uuid "2b84f27a-27eb-4376-8253-422b20189cf6")
 	)
 	(fp_rect
 		(start -10 -12.5)
