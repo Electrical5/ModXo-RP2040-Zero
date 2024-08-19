@@ -48,4 +48,5 @@ If you sell modifications of this board (additional headers for LED strips / LCD
 # More info
 
 https://github.com/Team-Resurgent/Modxo
+
 https://consolemods.org/wiki/Xbox:ModXo
