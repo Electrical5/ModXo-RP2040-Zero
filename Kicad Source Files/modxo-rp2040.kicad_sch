@@ -13,7 +13,247 @@
 		(comment 2 "Thanks to Team Resurgent")
 	)
 	(lib_symbols
-		(symbol "Connector:Conn_01x01_Female"
+		(symbol "+3.3V_1"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+3.3V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+3.3V_1_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3.3V_1_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "+5V_1"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+5V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+5V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+5V_1_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5V_1_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Connector_Generic:Conn_01x01"
 			(pin_names
 				(offset 1.016) hide)
 			(exclude_from_sim no)
@@ -27,7 +267,7 @@
 					)
 				)
 			)
-			(property "Value" "Conn_01x01_Female"
+			(property "Value" "Conn_01x01"
 				(at 0 -2.54 0)
 				(effects
 					(font
@@ -71,7 +311,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "Connector*:*"
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -80,11 +320,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "Conn_01x01_Female_1_1"
-				(polyline
-					(pts
-						(xy -1.27 0) (xy -0.508 0)
-					)
+			(symbol "Conn_01x01_1_1"
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -93,16 +332,15 @@
 						(type none)
 					)
 				)
-				(arc
-					(start 0 0.508)
-					(mid -0.5058 0)
-					(end 0 -0.508)
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -1.27)
 					(stroke
-						(width 0.1524)
+						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type background)
 					)
 				)
 				(pin passive line
@@ -167,6 +405,24 @@
 				)
 			)
 			(property "Description" "Diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "D"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
 				(at 0 0 0)
 				(effects
 					(font
@@ -393,9 +649,9 @@
 		)
 		(symbol "power:+3.3V"
 			(power)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -443,7 +699,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "power-flag"
+			(property "ki_keywords" "global power"
 				(at 0 0 0)
 				(effects
 					(font
@@ -493,8 +749,8 @@
 			(symbol "+3.3V_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
-					(name "+3V3"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -513,9 +769,9 @@
 		)
 		(symbol "power:+5V"
 			(power)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -563,7 +819,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "power-flag"
+			(property "ki_keywords" "global power"
 				(at 0 0 0)
 				(effects
 					(font
@@ -613,8 +869,8 @@
 			(symbol "+5V_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
-					(name "+5V"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -633,9 +889,9 @@
 		)
 		(symbol "power:GND"
 			(power)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -683,7 +939,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "power-flag"
+			(property "ki_keywords" "global power"
 				(at 0 0 0)
 				(effects
 					(font
@@ -709,8 +965,8 @@
 			(symbol "GND_1_1"
 				(pin power_in line
 					(at 0 0 270)
-					(length 0) hide
-					(name "GND"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1187,7 +1443,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin power_out line
 					(at 12.7 -11.43 180)
 					(length 2.54)
 					(name "8"
@@ -1516,7 +1772,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin power_in line
 					(at -6.35 3.81 0)
 					(length 3.81)
 					(name "GND"
@@ -1606,7 +1862,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin power_in line
 					(at -6.35 -8.89 0)
 					(length 3.81)
 					(name "GND"
@@ -1732,7 +1988,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin power_in line
 					(at 6.35 1.27 180)
 					(length 3.81)
 					(name "3.3V"
@@ -1766,12 +2022,68 @@
 		(uuid "c7da4bda-bf73-4327-954f-c6ff178dd507")
 	)
 	(no_connect
+		(at 123.19 66.04)
+		(uuid "096d141f-909e-4ecb-a8c2-eebff1dc4b21")
+	)
+	(no_connect
+		(at 123.19 68.58)
+		(uuid "1339afbf-cf46-4d19-9ffe-48d789f21cb7")
+	)
+	(no_connect
 		(at 48.26 50.8)
 		(uuid "27368fb5-fe0c-4d6f-ab14-9b5aa4b4e927")
 	)
 	(no_connect
+		(at 130.81 73.66)
+		(uuid "2f73ba2d-631c-4084-b387-78e66e54e590")
+	)
+	(no_connect
+		(at 123.19 60.96)
+		(uuid "3aaa9e47-1982-4ff8-a191-78fcfd003ca5")
+	)
+	(no_connect
+		(at 140.97 73.66)
+		(uuid "3d4597ab-8b7a-47fa-80e5-bd7edae3bdb0")
+	)
+	(no_connect
+		(at 48.26 53.34)
+		(uuid "44421b5a-1c26-4fc5-af8c-bcd54337e01b")
+	)
+	(no_connect
 		(at 48.26 66.04)
 		(uuid "4b7f9152-2b66-4a66-86b3-6349503fd155")
+	)
+	(no_connect
+		(at 123.19 55.88)
+		(uuid "54e6b219-0ad4-4b85-82a8-4f1d12d8191d")
+	)
+	(no_connect
+		(at 135.89 73.66)
+		(uuid "62382039-e249-4a91-a2b4-92ab43a1b4fc")
+	)
+	(no_connect
+		(at 138.43 73.66)
+		(uuid "65d718c1-a1dd-482e-85d0-6e62180a8a20")
+	)
+	(no_connect
+		(at 60.96 53.34)
+		(uuid "78c09c84-0d7d-4c1d-aa1a-efb9643a65c1")
+	)
+	(no_connect
+		(at 123.19 53.34)
+		(uuid "a9c12fd9-86f2-4f2c-9802-9477b78e7efe")
+	)
+	(no_connect
+		(at 123.19 63.5)
+		(uuid "ea998b3c-b205-4a53-9799-206995e0d8fd")
+	)
+	(no_connect
+		(at 133.35 73.66)
+		(uuid "f33d7ee7-374f-4a10-b25c-d1fc3219dd0c")
+	)
+	(no_connect
+		(at 123.19 58.42)
+		(uuid "f4a8e7b3-a8e6-4a6e-be47-fe7d2f9821d8")
 	)
 	(wire
 		(pts
@@ -1852,16 +2164,6 @@
 			(type default)
 		)
 		(uuid "28a05b97-b076-48a2-8894-f6b7a4f8a35d")
-	)
-	(wire
-		(pts
-			(xy 45.72 53.34) (xy 48.26 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3264774b-8047-494a-aece-88f0e5bd9296")
 	)
 	(wire
 		(pts
@@ -2092,16 +2394,6 @@
 			(type default)
 		)
 		(uuid "db29dc66-64f6-4242-b152-ece04a438ead")
-	)
-	(wire
-		(pts
-			(xy 60.96 53.34) (xy 63.5 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dd5fa6ef-be8d-4fd3-9716-639c08a6314c")
 	)
 	(wire
 		(pts
@@ -2354,50 +2646,6 @@
 			)
 		)
 	)
-	(global_label "LSCL"
-		(shape input)
-		(at 63.5 53.34 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "bbc506b5-0f1d-4a93-8dec-acd95df8e4cf")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 71.0209 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "LSDA"
-		(shape input)
-		(at 45.72 53.34 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c3203134-5909-4d81-bdbf-15cdaf772ffb")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 38.1386 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "LCLK"
 		(shape input)
 		(at 63.5 68.58 0)
@@ -2533,7 +2781,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -2976,7 +3223,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x01_Female")
+		(lib_id "Connector_Generic:Conn_01x01")
 		(at 157.48 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2985,25 +3232,22 @@
 		(dnp no)
 		(uuid "662884e6-985c-4ae3-b43f-601486fa3ffa")
 		(property "Reference" "D0"
-			(at 170.688 63.5 0)
+			(at 160.02 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
-				(hide yes)
 			)
 		)
-		(property "Value" "D0 (V1.0-V1.5)"
-			(at 158.242 63.5 0)
+		(property "Value" "(V1.0-V1.5)"
+			(at 167.64 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_4.0x4.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
 			(at 157.48 63.5 0)
 			(effects
 				(font
@@ -3043,6 +3287,7 @@
 		)
 	)
 	(symbol
+		(lib_name "+5V_1")
 		(lib_id "power:+5V")
 		(at 29.21 50.8 0)
 		(unit 1)
@@ -3190,7 +3435,7 @@
 			)
 		)
 		(property "Value" "RB551VM-30TE-17"
-			(at 31.75 65.532 0)
+			(at 34.29 65.532 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -3258,6 +3503,7 @@
 		)
 	)
 	(symbol
+		(lib_name "+3.3V_1")
 		(lib_id "power:+3.3V")
 		(at 76.2 50.8 0)
 		(unit 1)

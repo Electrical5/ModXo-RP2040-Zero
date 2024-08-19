@@ -462,7 +462,7 @@
 					)
 				)
 			)
-			(pin power_out line
+			(pin bidirectional line
 				(at 12.7 -11.43 180)
 				(length 2.54)
 				(name "8"
