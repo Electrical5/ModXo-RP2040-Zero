@@ -436,7 +436,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "pico-modxo.kicad_pro",
+    "filename": "modxo-rp2040.kicad_pro",
     "version": 1
   },
   "net_settings": {
