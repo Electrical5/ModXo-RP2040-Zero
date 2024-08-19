@@ -1,13 +1,10 @@
 # ModXo-RP2040-Zero
 Unofficial board for the original Xbox modchip "[ModXo](https://github.com/Team-Resurgent/Modxo)" by Team Resurgent.
 
-Using the smaller (USB-C) version RP2040-Zero by WaveShare.
-
-Cut-out in the middle of the PCB to allow the RP2040 to lay flush / improve cooling.
-
-Using both universal footprints to support both SMD and THT for easier soldering / finding parts.
-
-Single-sided PCB for easier manufacturing.
+* Using the smaller (USB-C) version RP2040-Zero by WaveShare.
+* Cut-out in the middle of the PCB to allow the RP2040 to lay flush / improve cooling.
+* Using both universal footprints to support both SMD and THT for easier soldering / finding parts.
+* Single-sided PCB for easier manufacturing.
 
 See the [Release V0.2](https://github.com/Electrical5/ModXo-RP2040-Zero/releases/tag/V0.2) for the 'old' board.
 
