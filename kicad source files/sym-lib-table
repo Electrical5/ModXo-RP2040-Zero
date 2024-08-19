@@ -1,5 +1,0 @@
-(sym_lib_table
-  (version 7)
-  (lib (name "xbox_lpc")(type "KiCad")(uri "${KIPRJMOD}/libraries/xbox_lpc.pretty/xbox_lpc.kicad_sym")(options "")(descr ""))
-  (lib (name "rp2040-zero")(type "KiCad")(uri "${KIPRJMOD}/libraries/RP2040/rp2040-zero.kicad_sym")(options "")(descr ""))
-)
