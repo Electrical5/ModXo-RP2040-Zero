@@ -1,4 +1,4 @@
-# ModXo-RP2040-Zero
+# ModXo adapter board for RP2040-Zero / RP2040-Tiny
 Unofficial board for the original Xbox modchip "[ModXo](https://github.com/Team-Resurgent/Modxo)" by Team Resurgent.
 
 * Using the smaller (USB-C) version RP2040-Zero by WaveShare.
